@@ -3,7 +3,7 @@ import math
 def quadratic(a,b,c):
     d = b**2-4*a*c
     if d < 0:
-        x1 = x2 = "no answer" #since the graph of quadratic formula is 
+        x1 = x2 = "no answer" 
     elif d == 0:
         x1 = x2 = -b/(2*a)
     else:
